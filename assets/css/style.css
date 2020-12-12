@@ -22,7 +22,12 @@ a:hover {
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Raleway", sans-serif;
 }
 
@@ -237,7 +242,8 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Open Sans", sans-serif;
 }
 
-.nav-menu > ul > li:hover, .nav-menu .active {
+.nav-menu > ul > li:hover,
+.nav-menu .active {
   background: #cc1616;
 }
 
@@ -274,7 +280,9 @@ h1, h2, h3, h4, h5, h6 {
   color: #191919;
 }
 
-.nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
+.nav-menu .drop-down ul a:hover,
+.nav-menu .drop-down ul .active > a,
+.nav-menu .drop-down ul li:hover > a {
   color: #e82d2d;
 }
 
@@ -369,7 +377,9 @@ h1, h2, h3, h4, h5, h6 {
   outline: none;
 }
 
-.mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
+.mobile-nav a:hover,
+.mobile-nav .active > a,
+.mobile-nav li:hover > a {
   color: #e82d2d;
   text-decoration: none;
 }
@@ -629,7 +639,9 @@ section {
   box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.18);
 }
 
-.why-us .box:hover span, .why-us .box:hover h4, .why-us .box:hover p {
+.why-us .box:hover span,
+.why-us .box:hover h4,
+.why-us .box:hover p {
   color: #fff;
 }
 
@@ -647,8 +659,8 @@ section {
   margin: 0 auto;
   width: 64px;
   height: 64px;
-  background: #a9a3a3;
-  transition: all .3s ease-out 0s;
+  background: rgb(245, 245, 245);
+  transition: all 0.3s ease-out 0s;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -663,13 +675,13 @@ section {
 
 .services .icon-box .icon::before {
   position: absolute;
-  content: '';
+  content: "";
   left: -8px;
   top: -8px;
   height: 100%;
   width: 100%;
   background: #fce5e5;
-  transition: all .3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
   transform: translateZ(-1px);
 }
 
@@ -691,7 +703,7 @@ section {
 }
 
 .services .icon-box:hover {
-  background: #a59e9e;
+  background: whitesmoke;
   border-color: #b1a8a8;
   padding: 70px 20px 90px 20px;
 }
@@ -701,22 +713,27 @@ section {
 }
 
 .services .icon-box:hover .icon i {
-  color: #a79e9e;
+  color: black;
 }
 
 .services .icon-box:hover .icon::before {
   background: #2c2a2a;
 }
 
-.services .icon-box:hover h4 a, .services .icon-box:hover p {
-  color: #fff;
+.services .icon-box:hover h4 a,
+.services .icon-box:hover p {
+  color: black;
 }
 
 /*--------------------------------------------------------------
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(132, 126, 126, 0.5), rgba(122, 119, 119, 0.5)), url("../img/cta-bg.jpg") fixed center center;
+  background: linear-gradient(
+      rgba(132, 126, 126, 0.5),
+      rgba(122, 119, 119, 0.5)
+    ),
+    url("../img/cta-bg.jpg") fixed center center;
   background-size: cover;
   padding: 120px 0;
 }
@@ -775,7 +792,8 @@ section {
   font-family: "Poppins", sans-serif;
 }
 
-.portfolio #portfolio-filters li:hover, .portfolio #portfolio-filters li.filter-active {
+.portfolio #portfolio-filters li:hover,
+.portfolio #portfolio-filters li.filter-active {
   color: #e82d2d;
 }
 
@@ -812,7 +830,8 @@ section {
   margin-bottom: 0;
 }
 
-.portfolio .portfolio-item .portfolio-info .preview-link, .portfolio .portfolio-item .portfolio-info .details-link {
+.portfolio .portfolio-item .portfolio-info .preview-link,
+.portfolio .portfolio-item .portfolio-info .details-link {
   position: absolute;
   right: 40px;
   font-size: 24px;
@@ -820,7 +839,8 @@ section {
   color: #333333;
 }
 
-.portfolio .portfolio-item .portfolio-info .preview-link:hover, .portfolio .portfolio-item .portfolio-info .details-link:hover {
+.portfolio .portfolio-item .portfolio-info .preview-link:hover,
+.portfolio .portfolio-item .portfolio-info .details-link:hover {
   color: #cc1616;
 }
 
@@ -891,7 +911,6 @@ section {
   box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
   padding: 40px;
   width: 205%;
-  
 }
 
 .contact .php-email-form .validate {
@@ -944,13 +963,15 @@ section {
   animation: animate-loading 1s linear infinite;
 }
 
-.contact .php-email-form input, .contact .php-email-form textarea {
+.contact .php-email-form input,
+.contact .php-email-form textarea {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
 }
 
-.contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
+.contact .php-email-form input:focus,
+.contact .php-email-form textarea:focus {
   background-color: #cc1616;
 }
 
@@ -1008,7 +1029,8 @@ section {
   z-index: 1;
 }
 
-.portfolio-details .portfolio-details-carousel .owl-nav, .portfolio-details .portfolio-details-carousel .owl-dots {
+.portfolio-details .portfolio-details-carousel .owl-nav,
+.portfolio-details .portfolio-details-carousel .owl-dots {
   margin-top: 5px;
   text-align: left;
 }
